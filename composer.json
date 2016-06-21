@@ -1,0 +1,38 @@
+{
+    "name": "fufudao/yii2-base",
+    "type": "library",
+    "description": "Common components for fufudao ltd.",
+    "keywords": [
+        "fufudao",
+        "yii2",
+        "base",
+        "components"
+    ],
+    "homepage": "https://github.com/fufudao/yii2-base",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arlent",
+            "email": "cy@fufudao.cn"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "fufudao\\base\\" : "yii2-base/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "*",
+		"yiisoft/yii2-jui": "*"
+    },
+    "require-dev": {
+
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        },
+        "gateways": [
+
+        ]
+    }
+}

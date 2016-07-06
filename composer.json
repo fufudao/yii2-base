@@ -2,6 +2,7 @@
     "name": "fufudao/yii2-base",
     "type": "library",
     "description": "Common components for fufudao ltd.",
+	"version":"1.0.0",
     "keywords": [
         "fufudao",
         "yii2",

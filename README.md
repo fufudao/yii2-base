@@ -10,7 +10,7 @@ defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3); //for yii1
 defined('YII_ENV') or define('YII_ENV', 'dev'); //for yii2
 
 require(__DIR__ . '/../../vendor/autoload.php');
-require(__DIR__ . '/../../vendor/fufudao/fufudao-yii2-base/Yii.php');
+require(__DIR__ . '/../../vendor/fufudao/yii2-base/Yii.php');
 require(__DIR__ . '/../config/bootstrap.php');
 
 $config2 = yii\helpers\ArrayHelper::merge(

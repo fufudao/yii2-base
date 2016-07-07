@@ -2,7 +2,6 @@
     "name": "fufudao/yii2-base",
     "type": "library",
     "description": "Common components for fufudao ltd.",
-	"version":"1.0.0",
     "keywords": [
         "fufudao",
         "yii2",
@@ -18,7 +17,7 @@
         }
     ],
     "autoload": {
-        "psr-0": { "fufudao\\base\\" : "yii2-base/" }
+        "psr-4": { "fufudao\\base\\" : "yii2-base/base/" }
     },
     "require": {
         "php": ">=5.4",

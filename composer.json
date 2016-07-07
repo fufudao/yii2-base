@@ -17,7 +17,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "fufudao\\base\\" : "yii2-base/base/" }
+        "psr-4": { "fufudao\\base\\" : "base/" }
     },
     "require": {
         "php": ">=5.4",
